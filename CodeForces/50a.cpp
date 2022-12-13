@@ -5,4 +5,3 @@ int main(){
 	int m,n;
 	cin >> m >> n;
 	cout << floor((m*n)/2) << '\n';
-}
