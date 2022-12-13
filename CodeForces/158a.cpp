@@ -27,7 +27,7 @@ int main(){
 	for(int i{0};i<k;++i){
 		cin >> x;
 		if (x==0){
-			cout << 0 << '\n';
+			cout << i << '\n';
 			exit(0);
 		}
 	}
