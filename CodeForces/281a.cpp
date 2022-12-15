@@ -1,0 +1,21 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+#define ll long long
+typedef vector<int> vi;
+typedef pair<int,int> pi;
+#define F first
+#define S second
+#define PB push_back
+#define MP make_pair
+
+int main(){
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+    
+    string s;
+    cin >> s;
+    cout << static_cast<char>(toupper(s[0])) << s.substr(1,s.size()) << '\n';
+}
+
+
