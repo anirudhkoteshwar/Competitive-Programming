@@ -1,27 +1,33 @@
-#include <bits/stdc++.h>
+#include<bits/stdc++.h>
 using namespace std;
 
-/*
+#define ll long long
+typedef vector<int> vi;
+typedef pair<int,int> pi;
+#define F first
+#define S second
+#define PB push_back
+#define MP make_pair
+
+class Solution {
+public:
+    bool isPalindrome(int x) {
+        if(x<0){
+            return false;
+        }      
+        
+
+    }
+};
+
+
 int main(){
-	char l[];
-	char x;
-	int i=0;
-	while(cin >> x){
-		l[i] = x;
-		++i;
-	}
-	if (l[0]=='-'){
-		cout << "false" << '\n';
-		exit(0);
-	}
-	else{
-		o = reverse(l,size(l)-1);
-		if (l==o){
-			cout << "true" << '\n';
-		}
-		else {
-			cout << "false" << '\n';	
-		}
-	}
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+    
+
+
 }
-*/
+
+
+
