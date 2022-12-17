@@ -23,11 +23,11 @@ int main(){
     ios::sync_with_stdio(0);
     cin.tie(0);
 
-    string s,t,d="+";
+    string s,t;
     vector<string> l {};
-    getline(cin,s);
-    stringstream x(s);
-    while(getline(x,t,'+')){
+    cin >> s;
+    stringstream X(s);
+    while(getline(X,t,'+')){
         l.PB(t);
     }
     
