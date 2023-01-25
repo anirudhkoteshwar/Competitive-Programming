@@ -12,22 +12,22 @@ typedef pair<int,int> pi;
 int main(){
     ios::sync_with_stdio(0);
     cin.tie(0);
-
+    
     int64_t n;
-    int x;
+    int i=0;
     cin >> n;
-    while(n){
-        x = n%10;
-//        cout << "x: " << x << '\n';
-        if(x!=7 && x!=4){
-            cout << "NO" << '\n';
-            return 0;
+    while (n){
+        if (n%10==4 || n%10==7){
+            i++;
         }
         n/=10;
-//        cout << "n : " << n << '\n';
     }
-    cout << "YES" << '\n';
-
+    if(i==4 || i== 7){
+        cout << "YES" << '\n';
+        return 0;
+    }
+    cout << "NO" << '\n';
+    return 0;
 }
 
 
