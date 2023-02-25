@@ -18,4 +18,17 @@ int main(){
     cout << ceil(n/5) << '\n';
 }
 
+/*
+Solution:
+It's optimal to do the biggest possible step everytime. So elephant should do several steps by distance 5 and one or zero step by smaller distance. Answer equals to ceiling(x/5)
 
+    #include <iostream>
+     
+    using namespace std;
+     
+    int main() {
+        int x;
+        cin >> x;
+        cout << (x + 4) / 5 << '\n';
+    }
+*/
