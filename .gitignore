@@ -2,3 +2,5 @@
 ./CodeForces/output.txt
 ./LeetCode/input.txt
 ./LeetCode/output.txt
+
+*.class
